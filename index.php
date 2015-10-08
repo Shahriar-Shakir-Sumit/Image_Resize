@@ -5,7 +5,7 @@ include('init.php');
 //$sizes = array(100 => 100, 150 => 150, 250 => 250);
 //var_dump($_SERVER['REQUEST_METHOD'] );	
 //var_dump($_FILES['image']);
-//hello;
+
 
 if ($_SERVER['REQUEST_METHOD'] =='POST' AND isset($_FILES['image'])){
 	echo 'here 1';
